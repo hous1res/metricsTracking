@@ -1,0 +1,22 @@
+SELECT count(Location)
+FROM metrics where location like '%Davis Center%' AND Category like '%Networking%'
+
+UPDATE type SET DC=
+(
+SELECT count(Location)
+FROM metrics where location like '%Davis Center%' AND Category like '%Networking%'
+)
+WHERE Type = 'Networking'
+
+CREATE TABLE typeF14 (DATE CHAR(100), 
+		Village1 int, 
+		DavisCenter int,
+		EastCampus int)
+
+INSERT INTO typeS15(Type) VALUES ('Directional');
+INSERT INTO typeS15(Type) VALUES ('On Campus Systems');
+INSERT INTO typeS15(Type) VALUES ('Printing');
+INSERT INTO typeS15(Type) VALUES ('Technical/Software Repair');
+INSERT INTO typeS15(Type) VALUES ('Technical Advice');
+INSERT INTO typeS15(Type) VALUES ('Networking');
+

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+<div id="container" style="width:50%; height:400px;"></div>
+
+<script>
+$(function () { 
+    $('#container').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Metrics'
+        },
+        xAxis: {
+            categories: ['Jan 1', 'Jan 2', 'Jan 3','Jan 4', 'Jan 5', 'Jan 6','Jan 7','Jan 8', 'Jan 9','Jan 10', 'Jan 11', 'Jan 12']
+        },
+        yAxis: {
+            title: {
+                text: 'Visitors'
+            }
+        },
+        series: [{
+            name: 'DC Desk',
+            data: [26, 32, 29,24,34,41,65,24,25,74,34,43]
+        }, {
+            name: 'V1 Desk',
+            data: [5, 7, 3,11,9,23,15,12,14,8,11,16]
+        },{
+            name: 'EC2 Desk',
+            data: [10, 9, 13,24,10,15,12,15,5,9,13,10]
+        }
+		]
+    });
+});
+
+</script>
+</body>
+</html>

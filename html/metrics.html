@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Service Desk Dashboard</title>
+<?php
+		//variables
+		$servername = "localhost";
+		$username = "root";
+		$password = "Gat3k33p3r";
+		$dbname = "Metric";
+		$tablename = "metrics"
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+		$sql = "SELECT * from $tablename
+		WHERE Location='Village 1'
+		;"
+		$result = $conn->query($sql);
+
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				echo "id: " . $row["ID"]. " - Name: " . $row["timestamp"]. " " . $row["location"]. "<br>";
+			}
+		} else {
+			echo "0 results";
+		}
+		$conn->close();
+		?>
+</head>
+
+<body>
+  
+	<header>
+					<img src="servicedesklogo.png" style="display:block; width:290px;height:100px;margin-left:auto;margin-right:auto;">
+	</header>
+	
+	<nav>
+		<a href="https://www.google.com"> Metrics </a>
+		<a href="https://www.google.com"> Sign-In </a>
+		<a href="https://www.google.com"> Reports </a>
+		<a href="https://www.google.com"> Archives </a>
+	</nav>
+	
+	<section>
+		<table id=table01>
+			<tr>
+				<td>
+					<H1> <?php 
+                            echo "PHP"
+                           ?>
+                    </H1>
+				</td>
+				<td>
+					<H1>DC Service Desk</H1>
+				</td>
+				<td>
+					<H1>EC2 Service Desk</H1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="graph.png" style="width:350px;height:200px">
+				</td>
+				<td>
+					<img src="graph.png" style="width:350px;height:200px">
+				</td>
+				<td>
+					<img src="graph.png" style="width:350px;height:200px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<H1>Run V1 Report</H1>
+				</td>
+				<td>
+					<H1>Run DC Report</H1>
+				</td>
+				<td>
+					<H1>Run EC2 Report</H1>
+				</td>
+			</tr>
+		</table>
+	</section>
+
+	<aside>
+	Who's working now:
+	</aside>
+	
+	<footer>
+	admin
+	</footer>
+	
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\MetricApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-e6c7c6c735c231c3c53758094b58f2389728a6c8.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\classes-cdea4c6f60e24dee88390aed04e4b903f1448dfa.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\classes-b4654b9aaddc6ff175593f2771fd499f10a446da.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\libs\org.apache.commons.net_2.0.0.v200905272248.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="634c3075bcde912643f84b27fdf7db3eed64dcf0">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\org.apache.commons.net_2.0.0.v200905272248-f33e865b3bcfb51b037c13d95c572a2288bba5c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\mharford\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-9d24eace778a14fe2cab09a520307bc336770881.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\libs\activation.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\activation-6f24217db73e6eb6e50f26622235a0fedb9d1333.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\libs\mail.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\mail-f44afef626aca42609ba77659dd4ff4f10cff214.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7324e1a87a4fa19ba6f98e8815bd59ab1d1c77fc.jar" />
+    </item>
+    <item
+        jar="C:\MetricApp\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\MetricApp\app\build\intermediates\pre-dexed\debug\additionnal-2e069a86dda3da33ea510b1680a5cfa3d716f3f0.jar" />
+    </item>
+
+</items>

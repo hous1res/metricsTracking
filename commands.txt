@@ -1,0 +1,12 @@
+where Timestamp BETWEEN '2015-01-01 0:0:01' AND '2015-04-28 23:59:59'
+
+UPDATE typeW15 SET {3}=
+			(SELECT count(Location)
+			FROM metrics WHERE location LIKE '%Davis Center%' AND Category LIKE '%Directional / Informational%')
+			WHERE Type = 'Directional' AND Timestamp BETWEEN '2015-01-01 0:0:01' AND '2015-04-28 23:59:59'
+			
+			
+UPDATE typeW15 SET DC=
+			(SELECT count(Location)
+			FROM metrics WHERE location LIKE '%Davis Center%' AND Category LIKE '%Directional / Informational%' AND Timestamp BETWEEN '2015-01-01 0:0:01' AND '2015-04-28 23:59:59')
+			WHERE Type = 'Directional'
